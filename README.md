@@ -7,7 +7,7 @@ This repository contains code and sample data for a machine learning model that 
 
 ## Contents
 
-- `btc_insight` — Main Python script with data processing, model training, hyperparameter tuning (500 Optuna trials), and SHAP explainability.  
+- `btc_insight.py` — Main Python script with data processing, model training, hyperparameter tuning (500 Optuna trials), and SHAP explainability.  
 - `sample.csv` — Sample of the original dataset (last 10 rows) to illustrate data format.  
 - `optuna_output_log.txt` — Log file showing the hyperparameter tuning process and best trial results.
 
@@ -37,7 +37,9 @@ The full dataset used for training spans from **August 2022 to 2025**, as exchan
 3. For dataset use `sample.csv` for a quick demo (results will not be meaningful with only 10 rows).
 
 4. Run the script:
-    
+   ```bash
+    python btc_insight.py
+    ```
 
 ---
 
