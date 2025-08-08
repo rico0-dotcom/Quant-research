@@ -25,8 +25,8 @@ The full dataset used for training spans from **August 2022 to 2025**, as exchan
 
 1. Clone this repository:
     ```bash
-    git clone <[(https://github.com/rico0-dotcom/Quant-research)]>
-    cd <repo-folder>
+    git clone https://github.com/rico0-dotcom/Quant-research.git
+    cd Quant-research
     ```
 
 2. Install dependencies:
